@@ -305,12 +305,12 @@ class Application:
         self.tx7.place(x = 170,y = 360)
         self.tx7.config(text = "Under the supervision of", fg="red", font = ("Courier",30,"bold"))
 
-        self.photo6 = tk.PhotoImage(file='Pictures/sir.png')
-        self.w6 = tk.Label(self.root1, image = self.photo6)
-        self.w6.place(x = 350, y = 420)
-        self.tx6 = tk.Label(self.root1)
-        self.tx6.place(x = 230,y = 670)
-        self.tx6.config(text = "Dr. Vrijendra Singh", font = ("Courier",30,"bold"))
+	# self.photo6 = tk.PhotoImage(file='Pictures/sir.png')
+	# self.w6 = tk.Label(self.root1, image = self.photo6)
+	# self.w6.place(x = 350, y = 420)
+	# self.tx6 = tk.Label(self.root1)
+	# self.tx6.place(x = 230,y = 670)
+	# self.tx6.config(text = "Dr. Vrijendra Singh", font = ("Courier",30,"bold"))
 
 print("Starting Application...")
 pba = Application()
