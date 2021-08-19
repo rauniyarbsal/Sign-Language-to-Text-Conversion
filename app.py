@@ -294,12 +294,12 @@ class Application:
         self.tx3.place(x = 380,y = 250)
         self.tx3.config(text = "Bishal\1DA18CS032", font = ("Courier",15,"bold"))
         
-        # self.photo5 = tk.PhotoImage(file='Pictures/sid.png')
+        # self.photo5 = tk.PhotoImage(file='Pictures/bid.png')
         # self.w5 = tk.Label(self.root1, image = self.photo5)
         # self.w5.place(x = 740, y = 105)
         # self.tx5 = tk.Label(self.root1)
         # self.tx5.place(x = 740,y = 250)
-        # self.tx5.config(text = "Siddhant\1DA18CS031", font = ("Courier",15,"bold"))
+        # self.tx5.config(text = "Binit\1DA18CS031", font = ("Courier",15,"bold"))
         
         self.tx7 = tk.Label(self.root1)
         self.tx7.place(x = 170,y = 360)
